@@ -7,38 +7,38 @@ body
 }
 .container
 {
-    
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 5vw;
-    padding-left: 5vw;
+    margin-top: 7.5vh;
+    margin-bottom: 7.5vh;
 }
 #card
 {
     background-color: hsl(244, 38%, 16%);
     border-radius: 8px;
+    margin-left: 7.5vw;
+    margin-right: 7.5vw;
 }
 
 .text
 {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-
-
+.image{
+    background-color: hsl(277, 64%, 61%);
+}
 .image img
 {
-
-    display: block;
     max-width: 100%;
     object-fit: contain;
     border-radius: 8px 8px 0px 0px;
+    filter: opacity(50%);
 }
 
 span
@@ -57,21 +57,24 @@ span
 {
     font-family: 'Lexend Deca', sans-serif;
     color: hsl(0, 0%, 100%, 0.75) ;
+    line-height: 1.7rem;
 }
 
 .zone
 {
     font-family: 'Lexend Deca', sans-serif;
+    margin:2rem;
 }
 
 .num
 {
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: bold;
     margin: 5px;
 }
 
 .text_little
 {
-    
+    color: hsl(0, 0%, 100%, 0.75);
+    text-transform: capitalize;
 }
